@@ -1,0 +1,87 @@
+    header, main, nav, footer, section,article, figure, figcaption, aside{display: block;}
+    body{background-image: url(images/field.jpg); background-repeat: no-repeat; background-size: cover; min-width: 448px; height: 100%;}
+    nav{background-color: #1f2605;position: fixed; width: 80%;margin-left: 10%;margin-right: 10%; height: 30px;}
+    nav ul{margin: 0; padding: 5px;}
+    nav ul ul{position: fixed; background-color: #1f2605;padding: 0; text-align: left; display: none; z-index: 1;}
+    nav ul ul li{border-bottom: 1px solid #d6ce15; display: block; width: 50px; padding-left: 2px; margin-left: 0;}
+    nav li{display: inline-block; padding-right: 20px;}
+    nav a{text-decoration: none;}
+    nav a:link{color: #53900f;}
+    nav a:visited{color: #53900f;}
+    nav a:hover{color: #a4a71e;}
+    nav li:hover ul{display: block;}
+    #def{color: #53900f;}
+    #sketch-holder{position: absolute; top: 57px;margin-right: 0.5%; width: 99%;height: 100px;z-index: -2;}
+    header{margin-left: 10%; margin-right: 10%; height: 100px; padding: 20px 0; width: 80%; text-align: justify;}
+    #infront-of-scroll{position: relative; bottom: 10px;  margin-left: auto; margin-right: auto; height: 100px; padding: 20px 0; width: 79.25%; z-index: -1;}
+    #imgleft{float: left;}
+    #imgright{float: right;}
+    h1{font-family: Georgia, 'Times New Roman', serif; text-align: center; margin: 30px; color: #d6ce15;}
+    #wrapper{width: 80%; margin-left: 10%; margin-right: 10%;box-shadow: 5px 5px #000000;}
+    main{font-family: Helvetica, Arial, sans-serif; color: #FFFFFF; background-color: #1f6521; margin-left: auto; margin-right: auto; padding: 25px 20px}
+    #video{width: 854px; height: height: 480px ; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;}
+    #videoLink{width: 250; height: 30px; margin-top: 0 ;margin-right: auto; margin-bottom: 50px; margin-left: auto; text-align: center;}
+    #videoLink a{text-decoration: none;}
+    #videoLink a:link{color: crimson;}
+    #videoLink a:visited{color: yellow;}
+    #videoLink a:hover{color: red;}
+    #headingImg{display: block; margin: 0 auto; padding: 15px 0;}
+    .overview1{background-color: #53900f; height: 200px; margin: 40px 20px;padding: 25px 20px 25px 20px;}
+    .overview1{background-color: #53900f; height: 200px; margin: 40px 20px;padding: 25px 20px 25px 20px;}
+    #football1{float: right; margin-left: 20px;box-shadow: 3px 3px #a4a71e;}
+    .overview2{background-color: #53900f; height: 200px; margin: 40px 20px;padding: 25px 20px 25px 20px;}
+    #football2{float: left; margin-right: 20px;box-shadow: -3px 3px #a4a71e;}
+    footer{color: yellow; text-align: center;margin: 20px 0;}
+    footer a{color: yellow; text-decoration: none;}
+    footer a:hover{color: red;}
+    form{background-color: #53900F; width: 400px; margin: auto; padding: 15px 15px;}
+    h2{text-align: center;}
+    .center_para{text-align: center;}
+    #game-holder{width: 700px; height: 900px; margin-left: auto; margin-right: auto; margin-top: 50px; margin-bottom: 50px;}
+    #drawing-board{width: 50.955%; height: 90%; margin: 50px auto;}
+    .overview1 a{text-decoration: none;}
+    .overview1 a:link{color: #1f2605;}
+    .overview1 a:visited{color: #53900f;}
+    .overview1 a:hover{color: #a4a71e;}
+    .overview2 a{text-decoration: none;}
+    .overview2 a:link{color: #1f2605;}
+    .overview2 a:visited{color: #53900f;}
+    .overview2 a:hover{color: #a4a71e;}
+    #def3_imgs{width: 100%; height: 225px; margin: auto; }
+    #def3_left{float: left;}
+    #def3_right{float: right;}
+    table{width: auto;margin: auto; text-align: center; align-content: center;}
+    #mobile{display: none}
+
+
+@media only screen and (max-width: 850px) {
+
+    nav{position: static; margin: 0;width: 100%;}
+    nav ul{padding: 0; margin: 0;}
+    nav li{text-decoration: none; display: inline-block;}
+    #sketch-holder{width: 99%; margin: auto;text-align: justify;}
+    header{width: auto; margin: 0;}
+    #infront_of_scroll{position: static; width: auto; margin: auto; padding: 0;}
+    #wrapper{width: 100%; margin: 0;}
+    main{margin: 0; padding: 10px 20px;}
+    .overview1, .overview2{height: auto; padding: 25px 10px;}
+    #football1, #football2 {width: 30%; height: auto; margin: 0 10px 20px;}
+    #no_js{display: none;}
+    
+}
+
+@media only screen and (max-width: 640px){
+    
+    #sketch-holder{display: none;}
+    header{position: relative; bottom: 20px; width: 100%; margin: 0.5%}
+    #infront_of_scroll{position: static; height: 100px; width: 100%; margin: 0.5%;}
+    nav{padding: 0;height: auto; margin: auto;width: auto;}
+    nav li{display: block; border-bottom: 1px solid #1f6521;text-align: center ; height: 30px; padding-top: 10px;}
+    main{padding: 10px 10px;}
+    #football1, #football2{width: 30%; height: auto; box-shadow: none;}
+    #video{display: none;}
+    #videoLink{margin-top: 40px;}
+    nav ul ul li{display: none;}
+    #dropdown{display: none;}
+    #mobile{display: block; padding: none;}
+}
